@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+
+
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+.navbar_s2{
+    padding: 10px;
+    border-radius: 30px;
+    border: solid black 1px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar_s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+}
+.navbar_s2 input:focus{
+    outline: none;
+}
+.navbar_s3{
+    display: flex;
+    gap: 10px;
+}
+
+.catogories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+.catogories p{
+    background-color: #A435F0;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.sale-image img{
+    width: 100%;
+}
+.recommanded{
+    padding: 10px;
+}
+.recommanded-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   justify-content: space-between;
+    
+
+
+}
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    width: 100%;
+    height: 65%;
+}
+
+.topic{
+    padding: 10px;
+}
+.topic-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.topic-container p{
+    
+    padding: 10px;
+    border: grey solid 1px;
+    flex-grow: 1;
+    flex-basis:25%;
+
+
+}    
+ 
+.popular{
+    padding: 10px;
+
+}
+.popular__container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.companies{
+    padding: 10px;
+    
+    
+    margin: 5px;gap: 10px;
+    
+    
+    
+}
+.companies__one-title{
+    justify-content: center;
+    display: flex;
+    
+
+}
+.companies__two{
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+}
