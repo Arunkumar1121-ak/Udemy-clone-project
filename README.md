@@ -1,8 +1,5 @@
 # Udemy-clone-project
 
-Sure! Here's the same README description without emojis:
-
----
 
 ## Udemy Clone Website
 
